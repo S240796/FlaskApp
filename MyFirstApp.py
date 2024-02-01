@@ -7,7 +7,7 @@ cur = None
 def connectDB():
     global db,cur
     db = pymysql.connect(host='localhost',
-                     user='shubham',
+                     user='root',
                      password='',
                      database='python_3_10_2')
     cur = db.cursor()
